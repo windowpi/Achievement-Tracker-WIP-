@@ -4,7 +4,9 @@
     Date: Started(1-13-23) 
 */
 * {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: gray;
+    color: white;
 }
 
 ul {
@@ -12,3 +14,14 @@ ul {
     padding-left: 22px;
 }
 
+.achievement-list h2 {
+    background-color: rgb(110, 98, 28);
+    color: rgb(255, 255, 255);
+    margin-right: 75%;
+    text-align: center;
+}
+
+#checkbox {
+    background-color: red;
+    
+}

@@ -7,3 +7,8 @@
     background-color: gray;
 }
 
+ul {
+    list-style-type: none;
+    padding-left: 22px;
+}
+

@@ -30,14 +30,14 @@ ul {
   background-color: hsl(0, 0%, 20%);
   color: #fff;
   margin-left: 0.4%;
-  margin-right: 75%;
+  margin-right: 65%;
   text-align: left;
 }
 
 .achievement-list li {
   font-family: "Space Mono", monospace;
   background-color: hsl(0, 2%, 18%);
-  margin-right: 75%;
+  margin-right: 65%;
 }
 
 .achievement-list {

@@ -5,19 +5,19 @@
 */
 
 @font-face {
-  font-family: 'Space Mono';
-  src: url('../fonts/Space_Mono/SpaceMono-Regular.ttf') format('truetype');
+  font-family: "Space Mono";
+  src: url("../fonts/Space_Mono/SpaceMono-Regular.ttf") format("truetype");
 }
 
 html {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   background-color: #313041;
   color: white;
   font-weight: lighter;
 }
 
-
-h1, h2 {
+h1,
+h2 {
   font-weight: bold;
 }
 
@@ -29,12 +29,13 @@ ul {
 .achievement-list h2 {
   background-color: hsl(0, 0%, 20%);
   color: rgb(255, 255, 255);
+  margin-left: 0.4%;
   margin-right: 75%;
   text-align: left;
 }
 
 .achievement-list li {
-  font-family: 'Space Mono', monospace;
+  font-family: "Space Mono", monospace;
   background-color: hsl(0, 2%, 18%);
   margin-right: 75%;
 }

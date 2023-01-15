@@ -1,6 +1,6 @@
 /* 
   Title: Achievement Tracker for Dark Souls Franchise
-  Author: Justin Ludwick
+  Author: windowpi
   Date: Started(1-13-23) 
 */
 
@@ -12,7 +12,7 @@
 html {
   font-family: "Roboto Mono", monospace;
   background-color: #313041;
-  color: white;
+  color: #fff;
   font-weight: lighter;
 }
 
@@ -28,7 +28,7 @@ ul {
 
 .achievement-list h2 {
   background-color: hsl(0, 0%, 20%);
-  color: rgb(255, 255, 255);
+  color: #fff;
   margin-left: 0.4%;
   margin-right: 75%;
   text-align: left;

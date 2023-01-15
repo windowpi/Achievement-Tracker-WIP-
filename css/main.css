@@ -1,48 +1,48 @@
 /* 
-    Title: Achievement Tracker for Dark Souls Franchise
-    Author: Justin Ludwick
-    Date: Started(1-13-23) 
+  Title: Achievement Tracker for Dark Souls Franchise
+  Author: Justin Ludwick
+  Date: Started(1-13-23) 
 */
 
 @font-face {
-    font-family: 'Space Mono';
-    src: url('../fonts/Space_Mono/SpaceMono-Regular.ttf') format('truetype');
+  font-family: 'Space Mono';
+  src: url('../fonts/Space_Mono/SpaceMono-Regular.ttf') format('truetype');
 }
 
 html {
-    font-family: 'Roboto Mono', monospace;
-    background-color: #313041;
-    color: white;
-    font-weight: lighter;
+  font-family: 'Roboto Mono', monospace;
+  background-color: #313041;
+  color: white;
+  font-weight: lighter;
 }
 
 
 h1, h2 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 ul {
-    list-style-type: none;
-    padding-left: 5px;
+  list-style-type: none;
+  padding-left: 5px;
 }
 
 .achievement-list h2 {
-    background-color: hsl(0, 0%, 20%);
-    color: rgb(255, 255, 255);
-    margin-right: 75%;
-    text-align: left;
+  background-color: hsl(0, 0%, 20%);
+  color: rgb(255, 255, 255);
+  margin-right: 75%;
+  text-align: left;
 }
 
 .achievement-list li {
-    font-family: 'Space Mono', monospace;
-    background-color: hsl(0, 2%, 18%);
-    margin-right: 75%;
+  font-family: 'Space Mono', monospace;
+  background-color: hsl(0, 2%, 18%);
+  margin-right: 75%;
 }
 
 .achievement-list {
-    font-size: small;
+  font-size: small;
 }
 
 #checkbox {
-    background-color: hsl(0, 2%, 18%);
+  background-color: hsl(0, 2%, 18%);
 }

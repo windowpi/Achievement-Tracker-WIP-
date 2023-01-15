@@ -1,383 +1,384 @@
 <!DOCTYPE html>
 <!-- 
-    Title: Achievement Tracker for Dark Souls: Remastered
-    Author: windowpi
-    Date: Started(1-13-23)
+  Title: Achievement Tracker for Dark Souls: Remastered
+  Author: windowpi
+  Date: Started(1-13-23)
 -->
 <html>
 
 <head>
-    <title>Achievement Tracker</title>
-    <link href="./css/main.css" type="text/css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <title>Achievement Tracker</title>
+  <link href="./css/main.css" type="text/css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
 </head>
 
 <header>
-    <a href="https://darksouls.wiki.fextralife.com/Dark+Souls+Wiki" target="_blank">
-        <img src="./imgs/welcome.gif" width="250" alt="welcome to dark souls" />
-    </a>
-    <nav>
-        <a href="./index.html">Start Page</a>
-        <a href="./dsr.html">Dark Souls</a>
-    </nav>
-    <h1>Achievement Tracker</h1>
+  <a href="https://darksouls.wiki.fextralife.com/Dark+Souls+Wiki" target="_blank">
+    <img src="./imgs/welcome.gif" width="250" alt="welcome to dark souls" />
+  </a>
+  <nav>
+    <a href="./index.html">Start Page</a>
+    <a href="./dsr.html">Dark Souls</a>
+  </nav>
+  <h1>Achievement Tracker</h1>
     
 </header>
 
 <body>
-    <div class="achievement-list">
-
-        <div class="bosses">
-            <div class="card-body">
-                <h2>Bosses</h2>
-                <ul>
-                    <li id="achievement_1_1">
-                        <div id="checkbox">
-                            <input type="checkbox">
-                            <img src="./imgs/dsr/nito.jpg" width="45" /> 
-                            Defeat Gravelord Nito
-                        </div>
-                    </li>
-                    <li id="achievement_1_2">
-                        <div id="checkbox">
-                            <input type="checkbox">
-                            <img src="./imgs/dsr/bed-of-chaos.jpg" width="45" /> 
-                            Defeat Bed of Chaos
-                        </div>
-                    </li>
-                    <li id="achievement_1_3">
-                        <div id="checkbox">
-                            <input type="checkbox">
-                            <img src="./imgs/dsr/four-kings.jpg" width="45" /> 
-                            Defeat the Four Kings
-                        </div>
-                    </li>
-                    <li id="achievement_1_4">
-                        <div id="checkbox">
-                            <input type="checkbox">
-                            <img src="./imgs/dsr/seath.jpg" width="45" /> 
-                            Defeat Seath the Scaleless
-                        </div>
-                    </li>
-                    <li id="achievement_1_5">
-                        <div id="checkbox">
-                            <input type="checkbox">
-                            <img src="./imgs/dsr/gwyndolin.jpg" width="45" /> 
-                            Defeat the Dark Sun Gwyndolin
-                        </div>
-                    </li>
-                    <li id="achievement_1_6">
-                        <div id="checkbox">
-                            <input type="checkbox">
-                            <img src="./imgs/dsr/priscilla.jpg" width="45" /> 
-                            Defeat Crossbreed Priscilla
-                        </div>
-                    </li>
-                </ul>
+  <div class="achievement-list">
+    <div class="bosses">
+      <div class="card-body">
+        <h2>Bosses</h2>
+        <ul>
+          <li id="achievement_1_1">
+            <div id="checkbox">
+              <input type="checkbox">
+              <img src="./imgs/dsr/nito.jpg" width="45" /> 
+              Defeat Gravelord Nito
             </div>
-        </div>
-    
-        <div class="misc">
-            <div class="card-body">
-                <h2>Misc.</h2>
-                <ul>
-                    <li id="achievement_2_1">
-                        <div id="checkbox">
-                            <input type="checkbox">
-                            <img src="./imgs/dsr/enkindle.jpg" width="45" /> 
-                            Enkindle
-                        </div>
-                    </li>
-                    <li id="achievement_2_2">
-                        <div id="checkbox">
-                            <input type="checkbox">
-                            <img src="./imgs/dsr/flask.jpg" width="45" /> 
-                            Estus Flask
-                        </div>
-                    </li>
-                    <li id="achievement_2_3">
-                        <div id="checkbox">
-                            <input type="checkbox">
-                            <img src="./imgs/dsr/kindling.jpg" width="45" /> 
-                            Rite of Kindling
-                        </div>
-                    </li>
-                    <li id="achievement_2_4">
-                        <div id="checkbox">
-                            <input type="checkbox">
-                            <img src="./imgs/dsr/abysswalking.jpg" width="45" /> 
-                            Art of Abysswalking
-                        </div>
-                    </li>
-                    <li id="achievement_2_5">
-                        <div id="checkbox">
-                            <input type="checkbox">
-                            <img src="./imgs/dsr/lordvessel.jpg" width="45" /> 
-                            Lordvessel
-                        </div>
-                    </li>
-                    <li id="achievement_2_6">
-                        <div id="checkbox">
-                            <input type="checkbox">
-                            <img src="./imgs/dsr/knight-honor.jpg" width="45" /> 
-                            Knight's Honor
-                        </div>
-                    </li>
-                    <li id="achievement_2_7">
-                        <div id="checkbox">
-                            <input type="checkbox">
-                            <img src="./imgs/dsr/sage.jpg" width="45" /> 
-                            Wisdom of a Sage
-                        </div>
-                    </li>
-                    <li id="achievement_2_8">
-                        <div id="checkbox">
-                            <input type="checkbox">
-                            <img src="./imgs/dsr/pyromancer.jpg" width="45" /> 
-                            Bond of a Pyromancer
-                        </div>
-                    </li>
-                    <li id="achievement_2_9">
-                        <div id="checkbox">
-                            <input type="checkbox">
-                            <img src="./imgs/dsr/maiden.jpg" width="45" /> 
-                            Prayer of a Maiden
-                        </div>
-                    </li>
-                </ul>
+          </li>
+          <li id="achievement_1_2">
+            <div id="checkbox">
+              <input type="checkbox">
+              <img src="./imgs/dsr/bed-of-chaos.jpg" width="45" /> 
+              Defeat Bed of Chaos
             </div>
-        </div>
-    
-        <div class="bells">
-            <div class="card-body">
-                <h2>Ring the Bells</h2>
-                <ul>
-                    <li id="achievement_3_1">
-                        <div id="checkbox">
-                            <input type="checkbox">
-                            <img src="./imgs/dsr/church.jpg" width="45" />
-                            Ring the Bell(Undead Church)
-                        </div>
-                    </li>
-                    <li id="achievement_3_2">
-                        <div id="checkbox">
-                            <input type="checkbox">
-                            <img src="./imgs/dsr/quelaag.jpg" width="45" />
-                            Ring the Bell(Quelaag's Domain
-                        </div>
-                    </li>
-                </ul>
+          </li>
+          <li id="achievement_1_3">
+            <div id="checkbox">
+              <input type="checkbox">
+              <img src="./imgs/dsr/four-kings.jpg" width="45" /> 
+              Defeat the Four Kings
             </div>
-        </div>
-    
-        <div class="locations">
-            <div class="card-body">
-                <h2>Locations</h2>
-                <ul>
-                    <li id="achievement_4_1">
-                        <div id="checkbox">
-                            <input type="checkbox">
-                            <img src="./imgs/dsr/lordran.jpg" width="45" /> 
-                            Reach Lordran
-                        </div>
-                    </li>
-                    <li id="achievement_4_2">
-                        <div id="checkbox">
-                            <input type="checkbox">
-                            <img src="./imgs/dsr/anor-londo.jpg" width="45" /> 
-                            Reach Anor Londo
-                        </div>
-                    </li>
-                </ul>
+          </li>
+          <li id="achievement_1_4">
+            <div id="checkbox">
+              <input type="checkbox">
+              <img src="./imgs/dsr/seath.jpg" width="45" /> 
+              Defeat Seath the Scaleless
             </div>
-        </div>
-    
-        <div class="covenets">
-            <div class="card-body">
-                <h2>Covenents</h2>
-                <ul>
-                    <li id="achievement_5_1">
-                        <div id="checkbox">
-                            <input type="checkbox">
-                            <img src="./imgs/dsr/white.jpg" width="45" /> 
-                            Covenent: Way of White
-                        </div>
-                    </li>
-                    <li id="achievement_5_2">
-                        <div id="checkbox">
-                            <input type="checkbox">
-                            <img src="./imgs/dsr/chaos-servant.jpg" width="45" /> 
-                            Covenent: Chaos Servent
-                        </div>
-                    </li>
-                    <li id="achievement_5_3">
-                        <div id="checkbox">
-                            <input type="checkbox">
-                            <img src="./imgs/dsr/princess-guard.jpg" width="45" /> 
-                            Covenent: Princess Guard
-                        </div>
-                    </li>
-                    <li id="achievement_5_4">
-                        <div id="checkbox">
-                            <input type="checkbox">
-                            <img src="./imgs/dsr/darkmoon.jpg" width="45" /> 
-                            Covenent: Blade of the Darkmoon
-                        </div>
-                    </li>
-                    <li id="achievement_5_5">
-                        <div id="checkbox">
-                            <input type="checkbox">
-                            <img src="./imgs/dsr/sunlight.jpg" width="45" /> 
-                            Covenent: Warrior of Sunlight
-                        </div>
-                    </li>
-                    <li id="achievement_5_6">
-                        <div id="checkbox">
-                            <input type="checkbox">
-                            <img src="./imgs/dsr/forest-hunter.jpg" width="45" /> 
-                            Covenent: Forest Hunter
-                        </div>
-                    </li>
-                    <li id="achievement_5_7">
-                        <div id="checkbox">
-                            <input type="checkbox">
-                            <img src="./imgs/dsr/darkwraith.jpg" width="45" /> 
-                            Covenent: Darkwraith
-                        </div>
-                    </li>
-                    <li id="achievement_5_8">
-                        <div id="checkbox">
-                            <input type="checkbox">
-                            <img src="./imgs/dsr/dragon.jpg" width="45" /> 
-                            Covenent: Path of the Dragon
-                        </div>
-                    </li>
-                    <li id="achievement_5_9">
-                        <div id="checkbox">
-                            <input type="checkbox">
-                            <img src="./imgs/dsr/gravelord.jpg" width="45" /> 
-                            Covenent: Gravelord Servant
-                        </div>
-                    </li>
-                </ul>
+          </li>
+          <li id="achievement_1_5">
+            <div id="checkbox">
+              <input type="checkbox">
+              <img src="./imgs/dsr/gwyndolin.jpg" width="45" /> 
+              Defeat the Dark Sun Gwyndolin
             </div>
-        </div>
-    
-        <div class="weapons">
-            <h2>Weapon Reinforcement</h2>
-            <ul>
-                <li id="achievement_6_1">
-                    <div id="checkbox">
-                        <input type="checkbox">
-                        <img src="./imgs/dsr/strong.jpg" width="45" /> 
-                        Strongest Weapon
-                    </div>
-                </li>
-                <li id="achievement_6_2">
-                    <div id="checkbox">
-                        <input type="checkbox">
-                        <img src="./imgs/dsr/crystal.jpg" width="45" /> 
-                        Crystal Weapon
-                    </div>
-                </li>
-                <li id="achievement_6_3">
-                    <div id="checkbox">
-                        <input type="checkbox">
-                        <img src="./imgs/dsr/lightening.jpg" width="45" /> 
-                        Lightning Weapon
-                    </div>
-                </li>
-                <li id="achievement_6_4">
-                    <div id="checkbox">
-                        <input type="checkbox">
-                        <img src="./imgs/dsr/raw.jpg" width="45" /> 
-                        Raw Weapon
-                    </div>
-                </li>
-                <li id="achievement_6_5">
-                    <div id="checkbox">
-                        <input type="checkbox">
-                        <img src="./imgs/dsr/magic.jpg" width="45" /> 
-                        Magic Weapon
-                    </div>
-                </li>
-                <li id="achievement_6_6">
-                    <div id="checkbox">
-                        <input type="checkbox">
-                        <img src="./imgs/dsr/enchanted.jpg" width="45" /> 
-                        Enchanted Weapon
-                    </div>
-                </li>
-                <li id="achievement_6_7">
-                    <div id="checkbox">
-                        <input type="checkbox">
-                        <img src="./imgs/dsr/divine.jpg" width="45" /> 
-                        Divine Weapon
-                    </div>
-                </li>
-                <li id="achievement_6_8">
-                    <div id="checkbox">
-                        <input type="checkbox">
-                        <img src="./imgs/dsr/occult.jpg" width="45" /> 
-                        Occult Weapon
-                    </div>
-                </li>
-                <li id="achievement_6_9">
-                    <div id="checkbox">
-                        <input type="checkbox">
-                        <img src="./imgs/dsr/fire.jpg" width="45" /> 
-                        Fire Weapon
-                    </div>
-                </li>
-                <li id="achievement_6_10">
-                    <div id="checkbox">
-                        <input type="checkbox">
-                        <img src="./imgs/dsr/chaos.jpg" width="45" /> 
-                        Chaos Weapon
-                    </div>
-                </li>
-            </ul>
-        </div>
-    
-        <div class="endings">
-            <div class="card-body">
-                <h2>Endings</h2>
-                <ul>
-                    <li id="achievement_7_1">
-                        <div id="checkbox">
-                            <input type="checkbox">
-                            <img src="./imgs/dsr/link-fire.jpg" width="45"/> 
-                            Link the Flame
-                        </div>
-                    </li>
-                    <li id="achievement_7_2">
-                        <div id="checkbox">
-                            <input type="checkbox">
-                            <img src="./imgs/dsr/dark-lord.jpg" width="45"/> 
-                            Dark Lord
-                        </div>
-                    </li>
-                </ul>
+          </li>
+          <li id="achievement_1_6">
+            <div id="checkbox">
+              <input type="checkbox">
+              <img src="./imgs/dsr/priscilla.jpg" width="45" /> 
+              Defeat Crossbreed Priscilla
             </div>
-        </div>
-    
-        <div class="dark-soul">
-            <div class="card-body">
-                <h2>All Achievements</h2>
-                <ul>
-                    <li id="achievement_8_1">
-                        <div id="checkbox">
-                            <input type="checkbox">
-                            <img src="./imgs/dsr/dark-soul.jpg" width="45"/> 
-                            The Dark Soul
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
+          </li>
+        </ul>
+      </div>
     </div>
+    
+    <div class="misc">
+      <div class="card-body">
+          <h2>Misc.</h2>
+          <ul>
+            <li id="achievement_2_1">
+              <div id="checkbox">
+                <input type="checkbox">
+                <img src="./imgs/dsr/enkindle.jpg" width="45" /> 
+                Enkindle
+              </div>
+            </li>
+            <li id="achievement_2_2">
+              <div id="checkbox">
+                <input type="checkbox">
+                <img src="./imgs/dsr/flask.jpg" width="45" /> 
+                Estus Flask
+              </div>
+            </li>
+            <li id="achievement_2_3">
+              <div id="checkbox">
+                <input type="checkbox">
+                <img src="./imgs/dsr/kindling.jpg" width="45" /> 
+                Rite of Kindling
+              </div>
+            </li>
+            <li id="achievement_2_4">
+              <div id="checkbox">
+                <input type="checkbox">
+                <img src="./imgs/dsr/abysswalking.jpg" width="45" /> 
+                Art of Abysswalking
+              </div>
+            </li>
+            <li id="achievement_2_5">
+              <div id="checkbox">
+                <input type="checkbox">
+                <img src="./imgs/dsr/lordvessel.jpg" width="45" /> 
+                Lordvessel
+              </div>
+            </li>
+            <li id="achievement_2_6">
+              <div id="checkbox">
+                <input type="checkbox">
+                <img src="./imgs/dsr/knight-honor.jpg" width="45" /> 
+                Knight's Honor
+              </div>
+            </li>
+            <li id="achievement_2_7">
+              <div id="checkbox">
+                <input type="checkbox">
+                <img src="./imgs/dsr/sage.jpg" width="45" /> 
+                Wisdom of a Sage
+              </div>
+            </li>
+            <li id="achievement_2_8">
+              <div id="checkbox">
+                <input type="checkbox">
+                <img src="./imgs/dsr/pyromancer.jpg" width="45" /> 
+                Bond of a Pyromancer
+              </div>
+            </li>
+            <li id="achievement_2_9">
+              <div id="checkbox">
+                <input type="checkbox">
+                <img src="./imgs/dsr/maiden.jpg" width="45" /> 
+                Prayer of a Maiden
+              </div>
+            </li>
+          </ul>
+      </div>
+    </div>
+    
+    <div class="bells">
+      <div class="card-body">
+        <h2>Ring the Bells</h2>
+        <ul>
+          <li id="achievement_3_1">
+            <div id="checkbox">
+              <input type="checkbox">
+              <img src="./imgs/dsr/church.jpg" width="45" />
+              Ring the Bell(Undead Church)
+            </div>
+          </li>
+          <li id="achievement_3_2">
+            <div id="checkbox">
+              <input type="checkbox">
+              <img src="./imgs/dsr/quelaag.jpg" width="45" />
+              Ring the Bell(Quelaag's Domain
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="locations">
+      <div class="card-body">
+        <h2>Locations</h2>
+        <ul>
+          <li id="achievement_4_1">
+            <div id="checkbox">
+              <input type="checkbox">
+              <img src="./imgs/dsr/lordran.jpg" width="45" /> 
+              Reach Lordran
+            </div>
+          </li>
+          <li id="achievement_4_2">
+            <div id="checkbox">
+              <input type="checkbox">
+              <img src="./imgs/dsr/anor-londo.jpg" width="45" /> 
+              Reach Anor Londo
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="covenets">
+      <div class="card-body">
+        <h2>Covenents</h2>
+        <ul>
+          <li id="achievement_5_1">
+            <div id="checkbox">
+              <input type="checkbox">
+              <img src="./imgs/dsr/white.jpg" width="45" /> 
+              Covenent: Way of White
+            </div>
+          </li>
+          <li id="achievement_5_2">
+            <div id="checkbox">
+              <input type="checkbox">
+              <img src="./imgs/dsr/chaos-servant.jpg" width="45" /> 
+              Covenent: Chaos Servent
+            </div>
+          </li>
+          <li id="achievement_5_3">
+            <div id="checkbox">
+              <input type="checkbox">
+              <img src="./imgs/dsr/princess-guard.jpg" width="45" /> 
+              Covenent: Princess Guard
+            </div>
+          </li>
+          <li id="achievement_5_4">
+            <div id="checkbox">
+              <input type="checkbox">
+              <img src="./imgs/dsr/darkmoon.jpg" width="45" /> 
+              Covenent: Blade of the Darkmoon
+            </div>
+          </li>
+          <li id="achievement_5_5">
+            <div id="checkbox">
+              <input type="checkbox">
+              <img src="./imgs/dsr/sunlight.jpg" width="45" /> 
+              Covenent: Warrior of Sunlight
+            </div>
+          </li>
+          <li id="achievement_5_6">
+            <div id="checkbox">
+              <input type="checkbox">
+              <img src="./imgs/dsr/forest-hunter.jpg" width="45" /> 
+              Covenent: Forest Hunter
+            </div>
+          </li>
+          <li id="achievement_5_7">
+            <div id="checkbox">
+              <input type="checkbox">
+              <img src="./imgs/dsr/darkwraith.jpg" width="45" /> 
+              Covenent: Darkwraith
+            </div>
+          </li>
+          <li id="achievement_5_8">
+            <div id="checkbox">
+              <input type="checkbox">
+              <img src="./imgs/dsr/dragon.jpg" width="45" /> 
+              Covenent: Path of the Dragon
+            </div>
+          </li>
+          <li id="achievement_5_9">
+            <div id="checkbox">
+              <input type="checkbox">
+              <img src="./imgs/dsr/gravelord.jpg" width="45" /> 
+              Covenent: Gravelord Servant
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="weapons">
+      <div class="card-">
+        <h2>Weapon Reinforcement</h2>
+        <ul>
+          <li id="achievement_6_1">
+            <div id="checkbox">
+              <input type="checkbox">
+              <img src="./imgs/dsr/strong.jpg" width="45" /> 
+              Strongest Weapon
+            </div>
+          </li>
+          <li id="achievement_6_2">
+            <div id="checkbox">
+              <input type="checkbox">
+              <img src="./imgs/dsr/crystal.jpg" width="45" /> 
+              Crystal Weapon
+            </div>
+          </li>
+          <li id="achievement_6_3">
+            <div id="checkbox">
+              <input type="checkbox">
+              <img src="./imgs/dsr/lightening.jpg" width="45" /> 
+              Lightning Weapon
+            </div>
+          </li>
+          <li id="achievement_6_4">
+            <div id="checkbox">
+              <input type="checkbox">
+              <img src="./imgs/dsr/raw.jpg" width="45" /> 
+              Raw Weapon
+            </div>
+          </li>
+          <li id="achievement_6_5">
+            <div id="checkbox">
+              <input type="checkbox">
+              <img src="./imgs/dsr/magic.jpg" width="45" /> 
+              Magic Weapon
+            </div>
+          </li>
+          <li id="achievement_6_6">
+            <div id="checkbox">
+              <input type="checkbox">
+              <img src="./imgs/dsr/enchanted.jpg" width="45" /> 
+              Enchanted Weapon
+            </div>
+          </li>
+          <li id="achievement_6_7">
+            <div id="checkbox">
+              <input type="checkbox">
+              <img src="./imgs/dsr/divine.jpg" width="45" /> 
+              Divine Weapon
+            </div>
+          </li>
+          <li id="achievement_6_8">
+            <div id="checkbox">
+              <input type="checkbox">
+              <img src="./imgs/dsr/occult.jpg" width="45" /> 
+              Occult Weapon
+            </div>
+          </li>
+          <li id="achievement_6_9">
+            <div id="checkbox">
+              <input type="checkbox">
+              <img src="./imgs/dsr/fire.jpg" width="45" /> 
+              Fire Weapon
+            </div>
+          </li>
+          <li id="achievement_6_10">
+            <div id="checkbox">
+              <input type="checkbox">
+              <img src="./imgs/dsr/chaos.jpg" width="45" /> 
+              Chaos Weapon
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="endings">
+      <div class="card-body">
+        <h2>Endings</h2>
+        <ul>
+          <li id="achievement_7_1">
+            <div id="checkbox">
+              <input type="checkbox">
+              <img src="./imgs/dsr/link-fire.jpg" width="45"/> 
+              Link the Flame
+            </div>
+          </li>
+          <li id="achievement_7_2">
+            <div id="checkbox">
+              <input type="checkbox">
+              <img src="./imgs/dsr/dark-lord.jpg" width="45"/> 
+              Dark Lord
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="dark-soul">
+      <div class="card-body">
+        <h2>All Achievements</h2>
+        <ul>
+          <li id="achievement_8_1">
+            <div id="checkbox">
+              <input type="checkbox">
+              <img src="./imgs/dsr/dark-soul.jpg" width="45"/> 
+              The Dark Soul
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
 </body>
 

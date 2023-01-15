@@ -6,10 +6,10 @@
 
 @font-face {
     font-family: 'Space Mono';
-    src: url('../fonts/Space_Mono/SpaceMono-Regular.ttf') format(truetype);
+    src: url('../fonts/Space_Mono/SpaceMono-Regular.ttf') format('truetype');
 }
 
-* {
+html {
     font-family: 'Roboto Mono', monospace;
     background-color: #313041;
     color: white;

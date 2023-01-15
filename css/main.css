@@ -4,19 +4,38 @@
     Date: Started(1-13-23) 
 */
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Mono', monospace;
     background-color: #313041;
     color: white;
+    font-weight: lighter;
+}
+
+
+h1, h2 {
+    font-weight: bold;
 }
 
 ul {
     list-style-type: none;
-    padding-left: 22px;
+    padding-left: 5px;
 }
 
 .achievement-list h2 {
-    background-color: rgb(110, 98, 28);
+    background-color: hsl(0, 0%, 20%);
     color: rgb(255, 255, 255);
     margin-right: 75%;
-    text-align: center;
+    text-align: left;
+}
+
+.achievement-list li {
+    background-color: hsl(0, 2%, 18%);
+    margin-right: 75%;
+}
+
+.achievement-list {
+    font-size: small;
+}
+
+#checkbox {
+    background-color: hsl(0, 2%, 18%);
 }

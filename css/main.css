@@ -3,35 +3,51 @@
   Author: windowpi
   Date: Started(1-13-23) 
 */
+* {
+  margin: 0;
+  padding: 0;
+}
 
 html {
-  background-color: #313041;
+  background-color: #222;
   color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  padding-right: 1rem;
 }
 
 h1,
 h2 {
   font-weight: bold;
+  margin: 0;
 }
 
 ul {
   list-style-type: none;
   padding-left: 5px;
+  font-size: small;
+}
+
+.space {
+  font-size: x-large;
+  font-weight: bold;
 }
 
 .achievement-list {
   width: 350px;
   text-align: left;
-  font-size: small;
+  margin: 0 auto;
 }
 
 .card-body {
-  background-color: hsl(0, 2%, 18%);
-  
+  border: solid 1px transparent;
+  border-radius: 5px;
+  background-color: #303030;
+  margin-bottom: 12px;
 }
 
-.achievement-list h2 {
-  background-color: hsl(0, 0%, 20%);
-}
 
 

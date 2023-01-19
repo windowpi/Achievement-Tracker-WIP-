@@ -11,12 +11,34 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
   background-color: #222;
   color: #fff;
   font-family: 'Space Mono Regular', monospace;
+}
+
+header {
+  background-color: #222;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
+
+nav li {
+  display: inline-block;
+}
+
+.index {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+body {
+  position: relative;
 }
 
 a {
@@ -29,12 +51,21 @@ h1,
 h2 {
   font-weight: bold;
   margin: 0;
-  font-size: 32px;
+}
+
+.card-body h2 {
+  margin-top: -14px;
+  margin-bottom: 10px;
+  font-size: 30px;
 }
 
 ul {
   list-style-type: none;
-  padding-left: 5px;
+  padding-left: 2px;
+}
+
+.inline {
+  align-items: center;
 }
 
 .align-items-center {
@@ -42,9 +73,10 @@ ul {
 }
 
 .achievement-list {
-  width: 350px;
+  width: 400px;
   text-align: left;
   margin: 0 auto;
+  letter-spacing: 0;
 }
 
 .card-body {
@@ -53,6 +85,7 @@ ul {
   border: solid 1px transparent;
   border-radius: 5px;
   background-color: #303030;
+  padding: 10px 5px;
   margin-bottom: 12px;
   font-size: 14px;
 }

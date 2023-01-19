@@ -21,11 +21,16 @@ html {
 }
 
 header {
-  background-color: #222;
+  background-color: #303030;
   width: 100%;
   position: sticky;
   top: 0px;
   z-index: 10;
+}
+
+nav {
+  margin: 0;
+  padding: 5px 0;
 }
 
 nav li {
@@ -33,7 +38,8 @@ nav li {
 }
 
 .index {
-  font-weight: bold;
+  padding-left: 15px;
+  font-weight: 600;
   font-size: 1.25rem;
 }
 
@@ -88,4 +94,13 @@ ul {
   padding: 10px 5px;
   margin-bottom: 12px;
   font-size: 14px;
+}
+
+#top {
+  text-align: center;
+}
+
+#img {
+  display: block;
+  margin: 0 auto;
 }

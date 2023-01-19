@@ -3,6 +3,11 @@
   Author: windowpi
   Date: Started(1-13-23) 
 */
+@font-face {
+  font-family: "Space Mono Regular";
+  src: url("../fonts/Space_Mono/SpaceMono-Regular.ttf") format("truetype");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,29 +16,29 @@
 html {
   background-color: #222;
   color: #fff;
+  font-family: 'Space Mono Regular', monospace;
 }
 
 a {
   text-decoration: none;
   color: #fff;
-  padding-right: 1rem;
+  padding-right: 5px;
 }
 
 h1,
 h2 {
   font-weight: bold;
   margin: 0;
+  font-size: 32px;
 }
 
 ul {
   list-style-type: none;
   padding-left: 5px;
-  font-size: small;
 }
 
-.space {
-  font-size: x-large;
-  font-weight: bold;
+.align-items-center {
+  align-items: center;
 }
 
 .achievement-list {
@@ -43,11 +48,11 @@ ul {
 }
 
 .card-body {
+  display: flex;
+  flex-direction: column;
   border: solid 1px transparent;
   border-radius: 5px;
   background-color: #303030;
   margin-bottom: 12px;
+  font-size: 14px;
 }
-
-
-

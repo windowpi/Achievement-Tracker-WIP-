@@ -74,15 +74,46 @@ ul {
   align-items: center;
 }
 
+
+
 .achievement-list {
   display: block;
-  width: 400px; /* figure out to get width around 400px wide but keep margin and padding on left/right with screen size changes */
-  padding: 0 12px;
+  width: 100%; 
+  padding: 0 .75rem;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
   letter-spacing: 0;
   word-wrap: break-word;
+}
+
+/*
+  Create page breaks to resize the .achievement-list block to keep content properly visible no matter the screen size
+  Also have to order lowest px - highest px to work
+*/
+
+@media (min-width: 586px) {
+  .achievement-list {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 756px) {
+  .achievement-list {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .achievement-list {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .achievement-list {
+    max-width: 1320px;
+  }
 }
 
 .card-body {

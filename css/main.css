@@ -2,6 +2,8 @@
   Title: Achievement Tracker for Dark Souls Franchise
   Author: windowpi
   Date: Started(1-13-23) 
+
+  Media tags need to be in line with what you are trying to change with different screen sizes!!! - For Me :)
 */
 @font-face {
   font-family: "Space Mono Regular";
@@ -29,8 +31,9 @@ header {
 }
 
 nav {
+  display: flex;
   margin: 0;
-  padding: 5px 0;
+  padding: 0.125rem 0;
 }
 
 nav li {
@@ -73,8 +76,6 @@ ul {
 .align-items-center {
   align-items: center;
 }
-
-
 
 .achievement-list {
   display: block;
@@ -125,11 +126,11 @@ ul {
   font-size: 14px;
 }
 
-/* all todo with index.html */
-
 #top {
   text-align: center;
 }
+
+/* all todo with index.html */
 
 #img {
   display: block;

@@ -19,7 +19,7 @@
 html {
   background-color: #222;
   color: #fff;
-  font-family: "Space Mono Regular", monospace;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header {
@@ -40,20 +40,20 @@ nav li {
   display: inline-block;
 }
 
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding-right: 0.475rem;
+}
+
 .index {
-  padding-left: 15px;
-  font-weight: 600;
+  padding-left: 0.8rem;
+  font-weight: bold;
   font-size: 1.25rem;
 }
 
 body {
   position: relative;
-}
-
-nav a {
-  text-decoration: none;
-  color: #fff;
-  padding-right: 5px;
 }
 
 h1,
@@ -62,15 +62,15 @@ h2 {
   margin: 0;
 }
 
+ul {
+  list-style-type: none;
+  padding-left: 2px;
+}
+
 .card-body h2 {
   margin-top: -14px;
   margin-bottom: 10px;
   font-size: 30px;
-}
-
-ul {
-  list-style-type: none;
-  padding-left: 2px;
 }
 
 .align-items-center {
@@ -104,15 +104,15 @@ ul {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .achievement-list {
-    max-width: 1140px;
+    max-width: 940px;
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .achievement-list {
-    max-width: 1320px;
+    max-width: 1020px;
   }
 }
 
@@ -123,6 +123,18 @@ ul {
   padding: 10px 5px;
   margin-bottom: 12px;
   font-size: 14px;
+}
+
+#checkbox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card-body img {
+  width: 5.5rem;
+  padding: 0 1rem;
 }
 
 #top {

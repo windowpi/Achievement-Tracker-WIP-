@@ -131,7 +131,15 @@ ul {
 
 /* all todo with index.html */
 
-#img {
+.container {
+  width: 50%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.container img {
+  max-width: 100%;
+  height: auto;
   display: block;
-  margin: 0 auto;
+  padding: 0 0.25rem;
 }

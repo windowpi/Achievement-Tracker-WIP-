@@ -2,7 +2,7 @@
 
 ## My take on a achievement tracker and hopefully get Dark Souls 2 and Dark Souls 3 going soon.
 
-If you would like to see my progress you can goto https://windowpi.github.io/Achievement-Tracker-WIP-
+If you would like to see my progress you can goto https://windowpi.github.io/Achievement-Tracker-WIP-/
 
 This probably will look a lot like roundtables.net, as that is the inspiration for this project. I got the idea to do an achievement tracker for the Dark Souls series as I could not find one. 
 

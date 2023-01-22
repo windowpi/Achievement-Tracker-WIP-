@@ -131,11 +131,12 @@ ul {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  padding-bottom: 0.35em;
 }
 
 .card-body img {
-  width: 5.5rem;
-  padding: 0 1rem;
+  width: 5rem;
+  padding: 0 0.5rem;
 }
 
 #top {

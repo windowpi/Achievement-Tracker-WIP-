@@ -5,11 +5,6 @@
 
   Media tags need to be in line with what you are trying to change with different screen sizes!!! - For Me :)
 */
-@font-face {
-  font-family: "Space Mono Regular";
-  src: url("../fonts/Space_Mono/SpaceMono-Regular.ttf") format("truetype");
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -19,8 +14,7 @@
 html {
   background-color: #222;
   color: #fff;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', Verdana, sans-serif;
 }
 
 header {
@@ -50,7 +44,7 @@ nav a {
 .index {
   padding-left: 0.8rem;
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 body {

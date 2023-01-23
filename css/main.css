@@ -117,26 +117,50 @@ ul {
   }
 }
 
+
+
 .card-body {
   border: solid 1px transparent;
   border-radius: 5px;
   background-color: #303030;
-  padding: 10px 5px;
-  margin-bottom: 12px;
-  font-size: 14px;
+  padding: 1.25rem 0.625rem;
+  margin-bottom: 1.25rem;
+  font-size: 0.85rem;
 }
 
-#checkbox {
+/* Need to complete card content to determine font-size :)
+@media (min-width: 1000px) {
+  .card-body {
+    font-size: 0.85rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-body {
+    font-size: 1rem;    
+  }
+}
+*/
+
+.card-content {
   width: 100%;
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  padding-bottom: 0.35em;
+  padding: 0.5rem 0;
+  border-bottom: 1px gray solid;
+}
+
+label {
+  display: inherit;
+  align-items: center;
+  overflow-wrap: anywhere;
+  max-height: max-content;
 }
 
 .card-body img {
-  width: 5rem;
-  padding: 0 0.5rem;
+  width: 4rem;
+  margin: 0 0.5rem;
+  border-radius: 5px;
 }
 
 #top {

@@ -157,6 +157,8 @@ label {
 
 #top {
   text-align: center;
+  font-size: 3.5rem;
+  padding: 2%;
 }
 
 /* all todo with index.html */

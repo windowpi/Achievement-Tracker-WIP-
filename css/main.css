@@ -120,19 +120,22 @@ ul {
   font-size: 0.85rem;
 }
 
-/* Need to complete card content to determine font-size :)
-@media (min-width: 1000px) {
-  .card-body {
-    font-size: 0.85rem;
+/* Mobile Display */
+@media (max-width: 480px) {
+  #top {
+    font-size: 2.5rem !important;
   }
 }
 
+/* Need to complete card content to determine font-size :) */
+/*
 @media (min-width: 1200px) {
   .card-body {
     font-size: 1rem;    
   }
 }
 */
+
 
 .card-content {
   width: 100%;

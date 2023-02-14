@@ -184,3 +184,9 @@ label {
   height: auto;
   display: block;
 }
+
+input[type=checkbox]:checked + label.strikethrough {
+  text-decoration: line-through;
+  color: gray;
+}
+

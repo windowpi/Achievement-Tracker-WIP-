@@ -187,6 +187,6 @@ label {
 
 input[type=checkbox]:checked + label.strikethrough {
   text-decoration: line-through;
-  color: gray;
+  opacity: 0.4;
 }
 

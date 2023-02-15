@@ -16,6 +16,6 @@ for (var i = 0; i < input.length; i++) {
 }
 
 // get total input tags in 
-const element = document.getElementsByClassName('card-body');
-const nodes = element.getElementsByTagName('input');
-document.getElementById('achievement-total').innerHTML = nodes.length;
+//const element = document.getElementsByClassName('card-body');
+//const nodes = element.getElementsByTagName('input');
+//document.getElementById('achievement-total').innerHTML = nodes.length;

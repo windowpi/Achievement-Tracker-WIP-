@@ -12,10 +12,11 @@ for (var i = 0; i < input.length; i++) {
     input[i].onchange = function () {
         var add = this.value * (this.checked ? 1 : -1);
         total.innerHTML = parseFloat(total.innerHTML) + add
+        console.log(add);
     }
 }
 
 // get total input tags in 
-//const element = document.getElementsByClassName('card-body');
-//const nodes = element.getElementsByTagName('input');
-//document.getElementById('achievement-total').innerHTML = nodes.length;
+const element = document.getElementsByClassName('card-body')[0];
+const nodes = element.getElementsByTagName('input');
+document.getElementById('achievement-total').innerHTML = nodes.length;

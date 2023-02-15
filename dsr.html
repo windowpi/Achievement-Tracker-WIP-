@@ -16,6 +16,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
     rel="stylesheet" />
+
 </head>
 
 <body>
@@ -31,440 +32,458 @@
   <main>
     <div class="achievement-list">
       <h1 id="top">Achievements</h1>
+
       <div class="bosses card-body">
-        <h2>Bosses</h2>
-        <div class="">
-          <ul>
-            <li id="achievement_1_0">
-              <div class="card-content">
-                <input type="checkbox" id="item_1_0" value="0" />
-                <label class='strikethrough' for="item_1_0">
-                  <img src="./imgs/dsr/nito.jpg" />
-                  Defeat Gravelord Nito
-                </label>
-              </div>
-            </li>
-            <li id="achievement_1_1">
-              <div class="card-content">
-                <input type="checkbox" id="item_1_1" />
-                <label class='strikethrough' for="item_1_1">
-                  <img src="./imgs/dsr/bed-of-chaos.jpg" />
-                  Defeat Bed of Chaos
-                </label>
-              </div>
-            </li>
-            <li id="achievement_1_2">
-              <div class="card-content">
-                <input type="checkbox" id="item_1_2" />
-                <label class='strikethrough' for="item_1_2">
-                  <img src="./imgs/dsr/four-kings.jpg" />
-                  Defeat the Four Kings
-                </label>
-              </div>
-            </li>
-            <li id="achievement_1_3">
-              <div class="card-content">
-                <input type="checkbox" id="item_1_3" />
-                <label class='strikethrough' for="item_1_3">
-                  <img src="./imgs/dsr/seath.jpg" />
-                  Defeat Seath the Scaleless
-                </label>
-              </div>
-            </li>
-            <li id="achievement_1_4">
-              <div class="card-content">
-                <input type="checkbox" id="item_1_4" />
-                <label class='strikethrough' for="item_1_4">
-                  <img src="./imgs/dsr/gwyndolin.jpg" />
-                  Defeat the Dark Sun Gwyndolin
-                </label>
-              </div>
-            </li>
-            <li id="achievement_1_5">
-              <div class="card-content">
-                <input type="checkbox" id="item_1_5" />
-                <label class='strikethrough' for="item_1_5">
-                  <img src="./imgs/dsr/priscilla.jpg" />
-                  Defeat Crossbreed Priscilla
-                </label>
-              </div>
-            </li>
-          </ul>
+        <div class="heading">
+          <h2>Bosses</h2>
+          <p><span id="achievement-complete">0</span> / <span id="achievement-total"></span></p>
         </div>
+        <ul>
+          <li id="achievement_1_0">
+            <div class="card-content">
+              <input type="checkbox" id="item_1_0" class="sum" value="1" />
+              <label class='strikethrough' for="item_1_0">
+                <img src="./imgs/dsr/nito.jpg" />
+                Defeat Gravelord Nito
+              </label>
+            </div>
+          </li>
+          <li id="achievement_1_1">
+            <div class="card-content">
+              <input type="checkbox" id="item_1_1" class="sum" value="1" />
+              <label class='strikethrough' for="item_1_1">
+                <img src="./imgs/dsr/bed-of-chaos.jpg" />
+                Defeat Bed of Chaos
+              </label>
+            </div>
+          </li>
+          <li id="achievement_1_2">
+            <div class="card-content">
+              <input type="checkbox" id="item_1_2" class="sum" value="1" />
+              <label class='strikethrough' for="item_1_2">
+                <img src="./imgs/dsr/four-kings.jpg" />
+                Defeat the Four Kings
+              </label>
+            </div>
+          </li>
+          <li id="achievement_1_3">
+            <div class="card-content">
+              <input type="checkbox" id="item_1_3" class="sum" value="1" />
+              <label class='strikethrough' for="item_1_3">
+                <img src="./imgs/dsr/seath.jpg" />
+                Defeat Seath the Scaleless
+              </label>
+            </div>
+          </li>
+          <li id="achievement_1_4">
+            <div class="card-content">
+              <input type="checkbox" id="item_1_4" class="sum" value="1" />
+              <label class='strikethrough' for="item_1_4">
+                <img src="./imgs/dsr/gwyndolin.jpg" />
+                Defeat the Dark Sun Gwyndolin
+              </label>
+            </div>
+          </li>
+          <li id="achievement_1_5">
+            <div class="card-content">
+              <input type="checkbox" id="item_1_5" class="sum" value="1" />
+              <label class='strikethrough' for="item_1_5">
+                <img src="./imgs/dsr/priscilla.jpg" />
+                Defeat Crossbreed Priscilla
+              </label>
+            </div>
+          </li>
+        </ul>
       </div>
 
       <div class="misc card-body">
-        <h2>Misc.</h2>
-        <div class="">
-          <ul>
-            <li id="achievement_2_9">
-              <div class="card-content">
-                <input type="checkbox" id="item_2_0" />
-                <label class='strikethrough' for="item_2_0">
-                  <img src="./imgs/dsr/enkindle.jpg" />
-                  Enkindle
-                </label>
-              </div>
-            </li>
-            <li id="achievement_2_1">
-              <div class="card-content">
-                <input type="checkbox" id="item_2_1" />
-                <label class='strikethrough' for="item_2_1">
-                  <img src="./imgs/dsr/flask.jpg" />
-                  Estus Flask
-                </label>
-              </div>
-            </li>
-            <li id="achievement_2_2">
-              <div class="card-content">
-                <input type="checkbox" id="item_2_2" />
-                <label class='strikethrough' for="item_2_2">
-                  <img src="./imgs/dsr/kindling.jpg" />
-                  Rite of Kindling
-                </label>
-              </div>
-            </li>
-            <li id="achievement_2_3">
-              <div class="card-content">
-                <input type="checkbox" id="item_2_3" />
-                <label class='strikethrough' for="item_2_3">
-                  <img src="./imgs/dsr/abysswalking.jpg" />
-                  Art of Abysswalking
-                </label>
-              </div>
-            </li>
-            <li id="achievement_2_4">
-              <div class="card-content">
-                <input type="checkbox" id="item_2_4" />
-                <label class='strikethrough' for="item_2_4">
-                  <img src="./imgs/dsr/lordvessel.jpg" />
-                  Lordvessel
-                </label>
-              </div>
-            </li>
-            <li id="achievement_2_5">
-              <div class="card-content">
-                <input type="checkbox" id="item_2_5" />
-                <label class='strikethrough' for="item_2_5">
-                  <img src="./imgs/dsr/knight-honor.jpg" />
-                  Knight's Honor
-                </label>
-              </div>
-            </li>
-            <li id="achievement_2_6">
-              <div class="card-content">
-                <input type="checkbox" id="item_2_6" />
-                <label class='strikethrough' for="item_2_6">
-                  <img src="./imgs/dsr/sage.jpg" />
-                  Wisdom of a Sage
-                </label>
-              </div>
-            </li>
-            <li id="achievement_2_7">
-              <div class="card-content">
-                <input type="checkbox" id="item_2_7" />
-                <label class='strikethrough' for="item_2_7">
-                  <img src="./imgs/dsr/pyromancer.jpg" />
-                  Bond of a Pyromancer
-                </label>
-              </div>
-            </li>
-            <li id="achievement_2_8">
-              <div class="card-content">
-                <input type="checkbox" id="item_2_8" />
-                <label class='strikethrough' for="item_2_8">
-                  <img src="./imgs/dsr/maiden.jpg" />
-                  Prayer of a Maiden
-                </label>
-              </div>
-            </li>
-          </ul>
+        <div class="heading">
+          <h2>Misc.</h2>
+          <p><span id="achievement-complete">0</span> / <span id="achievement-total"></span></p>
         </div>
+        <ul>
+          <li id="achievement_2_9">
+            <div class="card-content">
+              <input type="checkbox" id="item_2_0" class="sum" value="1" />
+              <label class='strikethrough' for="item_2_0">
+                <img src="./imgs/dsr/enkindle.jpg" />
+                Enkindle
+              </label>
+            </div>
+          </li>
+          <li id="achievement_2_1">
+            <div class="card-content">
+              <input type="checkbox" id="item_2_1" class="sum" value="1" />
+              <label class='strikethrough' for="item_2_1">
+                <img src="./imgs/dsr/flask.jpg" />
+                Estus Flask
+              </label>
+            </div>
+          </li>
+          <li id="achievement_2_2">
+            <div class="card-content">
+              <input type="checkbox" id="item_2_2" class="sum" value="1" />
+              <label class='strikethrough' for="item_2_2">
+                <img src="./imgs/dsr/kindling.jpg" />
+                Rite of Kindling
+              </label>
+            </div>
+          </li>
+          <li id="achievement_2_3">
+            <div class="card-content">
+              <input type="checkbox" id="item_2_3" class="sum" value="1" />
+              <label class='strikethrough' for="item_2_3">
+                <img src="./imgs/dsr/abysswalking.jpg" />
+                Art of Abysswalking
+              </label>
+            </div>
+          </li>
+          <li id="achievement_2_4">
+            <div class="card-content">
+              <input type="checkbox" id="item_2_4" class="sum" value="1" />
+              <label class='strikethrough' for="item_2_4">
+                <img src="./imgs/dsr/lordvessel.jpg" />
+                Lordvessel
+              </label>
+            </div>
+          </li>
+          <li id="achievement_2_5">
+            <div class="card-content">
+              <input type="checkbox" id="item_2_5" class="sum" value="1" />
+              <label class='strikethrough' for="item_2_5">
+                <img src="./imgs/dsr/knight-honor.jpg" />
+                Knight's Honor
+              </label>
+            </div>
+          </li>
+          <li id="achievement_2_6">
+            <div class="card-content">
+              <input type="checkbox" id="item_2_6" class="sum" value="1" />
+              <label class='strikethrough' for="item_2_6">
+                <img src="./imgs/dsr/sage.jpg" />
+                Wisdom of a Sage
+              </label>
+            </div>
+          </li>
+          <li id="achievement_2_7">
+            <div class="card-content">
+              <input type="checkbox" id="item_2_7" class="sum" value="1" />
+              <label class='strikethrough' for="item_2_7">
+                <img src="./imgs/dsr/pyromancer.jpg" />
+                Bond of a Pyromancer
+              </label>
+            </div>
+          </li>
+          <li id="achievement_2_8">
+            <div class="card-content">
+              <input type="checkbox" id="item_2_8" class="sum" value="1" />
+              <label class='strikethrough' for="item_2_8">
+                <img src="./imgs/dsr/maiden.jpg" />
+                Prayer of a Maiden
+              </label>
+            </div>
+            <script src="./js/dsr.js"></script>
+          </li>
+        </ul>
+
       </div>
 
       <div class="bells card-body">
-        <h2>Ring the Bells</h2>
-        <div class="">
-          <ul>
-            <li id="achievement_3_0">
-              <div class="card-content">
-                <input type="checkbox" id="item_3_0" />
-                <label class='strikethrough' for="item_3_0">
-                  <img src="./imgs/dsr/church.jpg" />
-                  Ring the Bell(Undead Church)
-                </label>
-              </div>
-            </li>
-            <li id="achievement_3_1">
-              <div class="card-content">
-                <input type="checkbox" id="item_3_1" />
-                <label class='strikethrough' for="item_3_1">
-                  <img src="./imgs/dsr/quelaag.jpg" />
-                  Ring the Bell(Quelaag's Domain)
-                </label>
-              </div>
-            </li>
-          </ul>
+        <div class="heading">
+          <h2>Ring the Bells</h2>
+          <p><span id="achievement-complete">0</span> / <span id="achievement-total"></span></p>
         </div>
+        <ul>
+          <li id="achievement_3_0">
+            <div class="card-content">
+              <input type="checkbox" id="item_3_0" class="sum" value="1" />
+              <label class='strikethrough' for="item_3_0">
+                <img src="./imgs/dsr/church.jpg" />
+                Ring the Bell(Undead Church)
+              </label>
+            </div>
+          </li>
+          <li id="achievement_3_1">
+            <div class="card-content">
+              <input type="checkbox" id="item_3_1" class="sum" value="1" />
+              <label class='strikethrough' for="item_3_1">
+                <img src="./imgs/dsr/quelaag.jpg" />
+                Ring the Bell(Quelaag's Domain)
+              </label>
+            </div>
+          </li>
+        </ul>
+
       </div>
 
       <div class="locations card-body">
-        <h2>Locations</h2>
-        <div class="">
-          <ul>
-            <li id="achievement_4_0">
-              <div class="card-content">
-                <input type="checkbox" id="item_4_0" />
-                <label class='strikethrough' for="item_4_0">
-                  <img src="./imgs/dsr/lordran.jpg" />
-                  Reach Lordran
-                </label>
-              </div>
-            </li>
-            <li id="achievement_4_1">
-              <div class="card-content">
-                <input type="checkbox" id="item_4_1" />
-                <label class='strikethrough' for="item_4_1">
-                  <img src="./imgs/dsr/anor-londo.jpg" />
-                  Reach Anor Londo
-                </label>
-              </div>
-            </li>
-          </ul>
+        <div class="heading">
+          <h2>Locations</h2>
+          <p><span id="achievement-complete">0</span> / <span id="achievement-total"></span></p>
         </div>
+        <ul>
+          <li id="achievement_4_0">
+            <div class="card-content">
+              <input type="checkbox" id="item_4_0" class="sum" value="1" />
+              <label class='strikethrough' for="item_4_0">
+                <img src="./imgs/dsr/lordran.jpg" />
+                Reach Lordran
+              </label>
+            </div>
+          </li>
+          <li id="achievement_4_1">
+            <div class="card-content">
+              <input type="checkbox" id="item_4_1" class="sum" value="1" />
+              <label class='strikethrough' for="item_4_1">
+                <img src="./imgs/dsr/anor-londo.jpg" />
+                Reach Anor Londo
+              </label>
+            </div>
+          </li>
+        </ul>
+
       </div>
 
       <div class="covenets card-body">
-        <h2>Covenents</h2>
-        <div class="">
-          <ul>
-            <li id="achievement_5_0">
-              <div class="card-content">
-                <input type="checkbox" id="item_5_0" />
-                <label class='strikethrough' for="item_5_0">
-                  <img src="./imgs/dsr/white.jpg" />
-                  Covenent: Way of White
-                </label>
-              </div>
-            </li>
-            <li id="achievement_5_1">
-              <div class="card-content">
-                <input type="checkbox" id="item_5_1" />
-                <label class='strikethrough' for="item_5_1">
-                  <img src="./imgs/dsr/chaos-servant.jpg" />
-                  Covenent: Chaos Servent
-                </label>
-              </div>
-            </li>
-            <li id="achievement_5_2">
-              <div class="card-content">
-                <input type="checkbox" id="item_5_2" />
-                <label class='strikethrough' for="item_5_2">
-                  <img src="./imgs/dsr/princess-guard.jpg" />
-                  Covenent: Princess Guard
-                </label>
-              </div>
-            </li>
-            <li id="achievement_5_3">
-              <div class="card-content">
-                <input type="checkbox" id="item_5_3" />
-                <label class='strikethrough' for="item_5_3">
-                  <img src="./imgs/dsr/darkmoon.jpg" />
-                  Covenent: Blade of the Darkmoon
-                </label>
-              </div>
-            </li>
-            <li id="achievement_5_4">
-              <div class="card-content">
-                <input type="checkbox" id="item_5_4" />
-                <label class='strikethrough' for="item_5_4">
-                  <img src="./imgs/dsr/sunlight.jpg" />
-                  Covenent: Warrior of Sunlight
-                </label>
-              </div>
-            </li>
-            <li id="achievement_5_5">
-              <div class="card-content">
-                <input type="checkbox" id="item_5_5" />
-                <label class='strikethrough' for="item_5_5">
-                  <img src="./imgs/dsr/forest-hunter.jpg" />
-                  Covenent: Forest Hunter
-                </label>
-              </div>
-            </li>
-            <li id="achievement_5_6">
-              <div class="card-content">
-                <input type="checkbox" id="item_5_6" />
-                <label class='strikethrough' for="item_5_6">
-                  <img src="./imgs/dsr/darkwraith.jpg" />
-                  Covenent: Darkwraith
-                </label>
-              </div>
-            </li>
-            <li id="achievement_5_7">
-              <div class="card-content">
-                <input type="checkbox" id="item_5_7" />
-                <label class='strikethrough' for="item_5_7">
-                  <img src="./imgs/dsr/dragon.jpg" />
-                  Covenent: Path of the Dragon
-                </label>
-              </div>
-            </li>
-            <li id="achievement_5_8">
-              <div class="card-content">
-                <input type="checkbox" id="item_5_8" />
-                <label class='strikethrough' for="item_5_8">
-                  <img src="./imgs/dsr/gravelord.jpg" />
-                  Covenent: Gravelord Servant
-                </label>
-              </div>
-            </li>
-          </ul>
+        <div class="heading">
+          <h2>Covenents</h2>
+          <p><span id="achievement-complete">0</span> / <span id="achievement-total"></span></p>
         </div>
+        <ul>
+          <li id="achievement_5_0">
+            <div class="card-content">
+              <input type="checkbox" id="item_5_0" class="sum" value="1" />
+              <label class='strikethrough' for="item_5_0">
+                <img src="./imgs/dsr/white.jpg" />
+                Covenent: Way of White
+              </label>
+            </div>
+          </li>
+          <li id="achievement_5_1">
+            <div class="card-content">
+              <input type="checkbox" id="item_5_1" class="sum" value="1" />
+              <label class='strikethrough' for="item_5_1">
+                <img src="./imgs/dsr/chaos-servant.jpg" />
+                Covenent: Chaos Servent
+              </label>
+            </div>
+          </li>
+          <li id="achievement_5_2">
+            <div class="card-content">
+              <input type="checkbox" id="item_5_2" class="sum" value="1" />
+              <label class='strikethrough' for="item_5_2">
+                <img src="./imgs/dsr/princess-guard.jpg" />
+                Covenent: Princess Guard
+              </label>
+            </div>
+          </li>
+          <li id="achievement_5_3">
+            <div class="card-content">
+              <input type="checkbox" id="item_5_3" class="sum" value="1" />
+              <label class='strikethrough' for="item_5_3">
+                <img src="./imgs/dsr/darkmoon.jpg" />
+                Covenent: Blade of the Darkmoon
+              </label>
+            </div>
+          </li>
+          <li id="achievement_5_4">
+            <div class="card-content">
+              <input type="checkbox" id="item_5_4" class="sum" value="1" />
+              <label class='strikethrough' for="item_5_4">
+                <img src="./imgs/dsr/sunlight.jpg" />
+                Covenent: Warrior of Sunlight
+              </label>
+            </div>
+          </li>
+          <li id="achievement_5_5">
+            <div class="card-content">
+              <input type="checkbox" id="item_5_5" class="sum" value="1" />
+              <label class='strikethrough' for="item_5_5">
+                <img src="./imgs/dsr/forest-hunter.jpg" />
+                Covenent: Forest Hunter
+              </label>
+            </div>
+          </li>
+          <li id="achievement_5_6">
+            <div class="card-content">
+              <input type="checkbox" id="item_5_6" class="sum" value="1" />
+              <label class='strikethrough' for="item_5_6">
+                <img src="./imgs/dsr/darkwraith.jpg" />
+                Covenent: Darkwraith
+              </label>
+            </div>
+          </li>
+          <li id="achievement_5_7">
+            <div class="card-content">
+              <input type="checkbox" id="item_5_7" class="sum" value="1" />
+              <label class='strikethrough' for="item_5_7">
+                <img src="./imgs/dsr/dragon.jpg" />
+                Covenent: Path of the Dragon
+              </label>
+            </div>
+          </li>
+          <li id="achievement_5_8">
+            <div class="card-content">
+              <input type="checkbox" id="item_5_8" class="sum" value="1" />
+              <label class='strikethrough' for="item_5_8">
+                <img src="./imgs/dsr/gravelord.jpg" />
+                Covenent: Gravelord Servant
+              </label>
+            </div>
+          </li>
+        </ul>
+
       </div>
 
       <div class="weapons card-body">
-        <h2>Weapon Reinforcement</h2>
-        <div class="">
-          <ul>
-            <li id="achievement_6_0">
-              <div class="card-content">
-                <input type="checkbox" id="item_6_0" />
-                <label class='strikethrough' for="item_6_0">
-                  <img src="./imgs/dsr/strong.jpg" />
-                  Strongest Weapon
-                </label>
-              </div>
-            </li>
-            <li id="achievement_6_1">
-              <div class="card-content">
-                <input type="checkbox" id="item_6_1" />
-                <label class='strikethrough' for="item_6_1">
-                  <img src="./imgs/dsr/crystal.jpg" />
-                  Crystal Weapon
-                </label>
-              </div>
-            </li>
-            <li id="achievement_6_2">
-              <div class="card-content">
-                <input type="checkbox" id="item_6_2" />
-                <label class='strikethrough' for="item_6_2">
-                  <img src="./imgs/dsr/lightening.jpg" />
-                  Lightning Weapon
-                </label>
-              </div>
-            </li>
-            <li id="achievement_6_3">
-              <div class="card-content">
-                <input type="checkbox" id="item_6_3" />
-                <label class='strikethrough' for="item_6_3">
-                  <img src="./imgs/dsr/raw.jpg" />
-                  Raw Weapon
-                </label>
-              </div>
-            </li>
-            <li id="achievement_6_4">
-              <div class="card-content">
-                <input type="checkbox" id="item_6_4" />
-                <label class='strikethrough' for="item_6_4">
-                  <img src="./imgs/dsr/magic.jpg" />
-                  Magic Weapon
-                </label>
-              </div>
-            </li>
-            <li id="achievement_6_5">
-              <div class="card-content">
-                <input type="checkbox" id="item_6_5" />
-                <label class='strikethrough' for="item_6_5">
-                  <img src="./imgs/dsr/enchanted.jpg" />
-                  Enchanted Weapon
-                </label>
-              </div>
-            </li>
-            <li id="achievement_6_6">
-              <div class="card-content">
-                <input type="checkbox" id="item_6_6" />
-                <label class='strikethrough' for="item_6_6">
-                  <img src="./imgs/dsr/divine.jpg" />
-                  Divine Weapon
-                </label>
-              </div>
-            </li>
-            <li id="achievement_6_7">
-              <div class="card-content">
-                <input type="checkbox" id="item_6_7" />
-                <label class='strikethrough' for="item_6_7">
-                  <img src="./imgs/dsr/occult.jpg" />
-                  Occult Weapon
-                </label>
-              </div>
-            </li>
-            <li id="achievement_6_8">
-              <div class="card-content">
-                <input type="checkbox" id="item_6_8" />
-                <label class='strikethrough' for="item_6_8">
-                  <img src="./imgs/dsr/fire.jpg" />
-                  Fire Weapon
-                </label>
-              </div>
-            </li>
-            <li id="achievement_6_9">
-              <div class="card-content">
-                <input type="checkbox" id="item_6_9" />
-                <label class='strikethrough' for="item_6_9">
-                  <img src="./imgs/dsr/chaos.jpg" />
-                  Chaos Weapon
-                </label>
-              </div>
-            </li>
-          </ul>
+        <div class="heading">
+          <h2>Weapon Reinforcement</h2>
+          <p><span id="achievement-complete">0</span> / <span id="achievement-total"></span></p>
         </div>
+        <ul>
+          <li id="achievement_6_0">
+            <div class="card-content">
+              <input type="checkbox" id="item_6_0" class="sum" value="1" />
+              <label class='strikethrough' for="item_6_0">
+                <img src="./imgs/dsr/strong.jpg" />
+                Strongest Weapon
+              </label>
+            </div>
+          </li>
+          <li id="achievement_6_1">
+            <div class="card-content">
+              <input type="checkbox" id="item_6_1" class="sum" value="1" />
+              <label class='strikethrough' for="item_6_1">
+                <img src="./imgs/dsr/crystal.jpg" />
+                Crystal Weapon
+              </label>
+            </div>
+          </li>
+          <li id="achievement_6_2">
+            <div class="card-content">
+              <input type="checkbox" id="item_6_2" class="sum" value="1" />
+              <label class='strikethrough' for="item_6_2">
+                <img src="./imgs/dsr/lightening.jpg" />
+                Lightning Weapon
+              </label>
+            </div>
+          </li>
+          <li id="achievement_6_3">
+            <div class="card-content">
+              <input type="checkbox" id="item_6_3" class="sum" value="1" />
+              <label class='strikethrough' for="item_6_3">
+                <img src="./imgs/dsr/raw.jpg" />
+                Raw Weapon
+              </label>
+            </div>
+          </li>
+          <li id="achievement_6_4">
+            <div class="card-content">
+              <input type="checkbox" id="item_6_4" class="sum" value="1" />
+              <label class='strikethrough' for="item_6_4">
+                <img src="./imgs/dsr/magic.jpg" />
+                Magic Weapon
+              </label>
+            </div>
+          </li>
+          <li id="achievement_6_5">
+            <div class="card-content">
+              <input type="checkbox" id="item_6_5" class="sum" value="1" />
+              <label class='strikethrough' for="item_6_5">
+                <img src="./imgs/dsr/enchanted.jpg" />
+                Enchanted Weapon
+              </label>
+            </div>
+          </li>
+          <li id="achievement_6_6">
+            <div class="card-content">
+              <input type="checkbox" id="item_6_6" class="sum" value="1" />
+              <label class='strikethrough' for="item_6_6">
+                <img src="./imgs/dsr/divine.jpg" />
+                Divine Weapon
+              </label>
+            </div>
+          </li>
+          <li id="achievement_6_7">
+            <div class="card-content">
+              <input type="checkbox" id="item_6_7" class="sum" value="1" />
+              <label class='strikethrough' for="item_6_7">
+                <img src="./imgs/dsr/occult.jpg" />
+                Occult Weapon
+              </label>
+            </div>
+          </li>
+          <li id="achievement_6_8">
+            <div class="card-content">
+              <input type="checkbox" id="item_6_8" class="sum" value="1" />
+              <label class='strikethrough' for="item_6_8">
+                <img src="./imgs/dsr/fire.jpg" />
+                Fire Weapon
+              </label>
+            </div>
+          </li>
+          <li id="achievement_6_9">
+            <div class="card-content">
+              <input type="checkbox" id="item_6_9" class="sum" value="1" />
+              <label class='strikethrough' for="item_6_9">
+                <img src="./imgs/dsr/chaos.jpg" />
+                Chaos Weapon
+              </label>
+            </div>
+          </li>
+        </ul>
+
       </div>
 
       <div class="endings card-body">
-        <h2>Endings</h2>
-        <div class="">
-          <ul>
-            <li id="achievement_7_0">
-              <div class="card-content">
-                <input type="checkbox" id="item_7_0" />
-                <label class='strikethrough' for="item_7_0">
-                  <img src="./imgs/dsr/link-fire.jpg" />
-                  Link the Flame
-                </label>
-              </div>
-            </li>
-            <li id="achievement_7_1">
-              <div class="card-content">
-                <input type="checkbox" id="item_7_1" />
-                <label class='strikethrough' for="item_7_1">
-                  <img src="./imgs/dsr/dark-lord.jpg" />
-                  Dark Lord
-                </label>
-              </div>
-            </li>
-          </ul>
+        <div class="heading">
+          <h2>Endings</h2>
+          <p><span id="achievement-complete">0</span> / <span id="achievement-total"></span></p>
         </div>
+        <ul>
+          <li id="achievement_7_0">
+            <div class="card-content">
+              <input type="checkbox" id="item_7_0" class="sum" value="1" />
+              <label class='strikethrough' for="item_7_0">
+                <img src="./imgs/dsr/link-fire.jpg" />
+                Link the Flame
+              </label>
+            </div>
+          </li>
+          <li id="achievement_7_1">
+            <div class="card-content">
+              <input type="checkbox" id="item_7_1" class="sum" value="1" />
+              <label class='strikethrough' for="item_7_1">
+                <img src="./imgs/dsr/dark-lord.jpg" />
+                Dark Lord
+              </label>
+            </div>
+          </li>
+        </ul>
+
       </div>
 
       <div class="dark-soul card-body">
-        <h2>All Achievements</h2>
-        <div class="">
-          <ul>
-            <li id="achievement_8_0">
-              <div class="card-content">
-                <input type="checkbox" id="item_8_0" />
-                <label class='strikethrough' for="item_8_0">
-                  <img src="./imgs/dsr/dark-soul.jpg" />
-                  The Dark Soul
-                </label>
-              </div>
-            </li>
-          </ul>
+        <div class="heading">
+          <h2>All Achievements</h2>
+          <p><span id="achievement-complete">0</span> / <span id="achievement-total"></span></p>
         </div>
+        <ul>
+          <li id="achievement_8_0">
+            <div class="card-content">
+              <input type="checkbox" id="item_8_0" class="sum" value="1" />
+              <label class='strikethrough' for="item_8_0">
+                <img src="./imgs/dsr/dark-soul.jpg" />
+                The Dark Soul
+              </label>
+            </div>
+          </li>
+        </ul>
+
       </div>
 
     </div>
+
   </main>
 </body>
 

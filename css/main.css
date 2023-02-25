@@ -185,11 +185,11 @@ label {
   display: block;
 }
 
-input[type=checkbox]:checked + label.strikethrough {
+input[type=checkbox]:checked+label.strikethrough {
   text-decoration: line-through;
   opacity: 0.4;
 }
 
-input[type=checkbox]:hover + label {
+input[type=checkbox]:hover+label {
   cursor: pointer;
 }

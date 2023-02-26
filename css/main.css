@@ -111,6 +111,14 @@ ul {
   }
 }
 
+.heading {
+  display: flex;
+}
+
+.heading p {
+  margin-left: 10px;
+}
+
 .card-body {
   border: solid 1px transparent;
   border-radius: 5px;

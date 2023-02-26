@@ -31,7 +31,7 @@
 
   <main>
     <section class="achievement-list">
-      <h1 id="top">Achievements</h1>
+      <h1 id="top">Achievements <span><span class="total-achievement-complete">0</span>/41</span></h1>
 
       <section class="bosses card-body">
         <div class="heading">
@@ -485,7 +485,10 @@
 
   </main>
 </body>
+<script src="./js/dsr.js"></script>
 <script type="text/javascript">
+  // if checkbox is checked add to .achievement-complete span
+
   // Cache container element and add a listener to it
   const container = document.querySelector('.achievement-list');
   container.addEventListener('click', handleClick);

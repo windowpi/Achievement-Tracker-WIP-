@@ -30,13 +30,13 @@
   </header>
 
   <main>
-    <div class="achievement-list">
+    <section class="achievement-list">
       <h1 id="top">Achievements</h1>
 
-      <div class="bosses card-body">
+      <section class="bosses card-body">
         <div class="heading">
           <h2>Bosses</h2>
-          <p><span id="achievement-complete">0</span> / <span id="achievement-total"></span></p>
+          <p><span class="achievement-complete">0</span> / 6</p>
         </div>
         <ul>
           <li id="achievement_1_0">
@@ -94,12 +94,12 @@
             </div>
           </li>
         </ul>
-      </div>
+      </section>
 
-      <div class="misc card-body">
+      <section class="misc card-body">
         <div class="heading">
           <h2>Misc.</h2>
-          <p><span id="achievement-complete">0</span> / <span id="achievement-total"></span></p>
+          <p><span class="achievement-complete">0</span> / 9</p>
         </div>
         <ul>
           <li id="achievement_2_9">
@@ -182,16 +182,15 @@
                 Prayer of a Maiden
               </label>
             </div>
-            <script src="./js/dsr.js"></script>
           </li>
         </ul>
 
-      </div>
+      </section>
 
-      <div class="bells card-body">
+      <section class="bells card-body">
         <div class="heading">
           <h2>Ring the Bells</h2>
-          <p><span id="achievement-complete">0</span> / <span id="achievement-total"></span></p>
+          <p><span class="achievement-complete">0</span> / 2</p>
         </div>
         <ul>
           <li id="achievement_3_0">
@@ -214,12 +213,12 @@
           </li>
         </ul>
 
-      </div>
+      </section>
 
-      <div class="locations card-body">
+      <section class="locations card-body">
         <div class="heading">
           <h2>Locations</h2>
-          <p><span id="achievement-complete">0</span> / <span id="achievement-total"></span></p>
+          <p><span class="achievement-complete">0</span> / 2</p>
         </div>
         <ul>
           <li id="achievement_4_0">
@@ -242,12 +241,12 @@
           </li>
         </ul>
 
-      </div>
+      </section>
 
-      <div class="covenets card-body">
+      <section class="covenets card-body">
         <div class="heading">
           <h2>Covenents</h2>
-          <p><span id="achievement-complete">0</span> / <span id="achievement-total"></span></p>
+          <p><span class="achievement-complete">0</span> / 9</p>
         </div>
         <ul>
           <li id="achievement_5_0">
@@ -333,12 +332,12 @@
           </li>
         </ul>
 
-      </div>
+      </section>
 
-      <div class="weapons card-body">
+      <section class="weapons card-body">
         <div class="heading">
           <h2>Weapon Reinforcement</h2>
-          <p><span id="achievement-complete">0</span> / <span id="achievement-total"></span></p>
+          <p><span class="achievement-complete">0</span> / 10</p>
         </div>
         <ul>
           <li id="achievement_6_0">
@@ -433,12 +432,12 @@
           </li>
         </ul>
 
-      </div>
+      </section>
 
-      <div class="endings card-body">
+      <section class="endings card-body">
         <div class="heading">
           <h2>Endings</h2>
-          <p><span id="achievement-complete">0</span> / <span id="achievement-total"></span></p>
+          <p><span class="achievement-complete">0</span> / 2</p>
         </div>
         <ul>
           <li id="achievement_7_0">
@@ -461,12 +460,12 @@
           </li>
         </ul>
 
-      </div>
+      </section>
 
-      <div class="dark-soul card-body">
+      <section class="dark-soul card-body">
         <div class="heading">
           <h2>All Achievements</h2>
-          <p><span id="achievement-complete">0</span> / <span id="achievement-total"></span></p>
+          <p class="total-achievement"><span class="achievement-complete">0</span> / 1</p>
         </div>
         <ul>
           <li id="achievement_8_0">
@@ -480,11 +479,42 @@
           </li>
         </ul>
 
-      </div>
+      </section>
 
-    </div>
+    </section>
 
   </main>
 </body>
+<script type="text/javascript">
+  // Cache container element and add a listener to it
+  const container = document.querySelector('.achievement-list');
+  container.addEventListener('click', handleClick);
+
+  function handleClick(e) {
+
+    // Check that the element that fired the event
+    // is a checkbox
+    if (e.target.matches('[type="checkbox"]')) {
+
+      // Destructure the checked attribute from the
+      // checkbox
+      const {
+        checked
+      } = e.target;
+
+      // Find the closest element with a `card-body` class
+      const card = e.target.closest('.card-body');
+
+      // Use that to find the local "achievement" element
+      const achievement = card.querySelector('.achievement-complete');
+
+      // Get and parse its total
+      let total = Number(achievement.textContent);
+
+      // Update the text content with an new total
+      achievement.textContent = checked ? total += 1 : total -= 1;
+    }
+  }
+</script>
 
 </html>

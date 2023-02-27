@@ -27,8 +27,7 @@ header {
 
 nav {
   display: flex;
-  margin: 0;
-  padding: 0.125rem 0;
+  padding: 0.5rem 0;
 }
 
 nav li {
@@ -39,6 +38,55 @@ nav a {
   text-decoration: none;
   color: #fff;
   padding-right: 0.475rem;
+}
+
+@media (max-width: 768px) {
+  .hidden {
+    display: none;
+  }
+}
+
+.dropdown-btn {
+  background-color: transparent;
+  color: white;
+  padding-left: 8px;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relaive;
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  .dropdown {
+    display: none;
+  }
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 120px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 12px 16px;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
 }
 
 .index {

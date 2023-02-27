@@ -21,13 +21,24 @@
 <body>
   <header>
     <nav class="align-items-center">
+      <div class="dropdown">
+        <button onclick="navCollapse()" type="button" class="dropdown-btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="dropdown-content" id="mydropdown">
+          <a href="./dsr.html">Dark Souls</a>
+          <a href="#">Dark Souls 2</a>
+          <a href="#">Dark Souls 3</a>
+        </div>
+      </div>
       <ul>
         <li><a class="index" href="./index.html">Achievement Tracker</a></li>
-        <li><a href="./dsr.html">Dark Souls</a></li>
+        <li><a class="hidden" href="./dsr.html">Dark Souls</a></li>
       </ul>
     </nav>
+    <script src="./js/button.js" type="text/javascript"></script>
+    <script src="https://kit.fontawesome.com/3f5948218d.js" crossorigin="anonymous"></script>
   </header>
-
 
   <main>
     <div class="container">

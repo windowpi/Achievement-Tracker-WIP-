@@ -163,6 +163,12 @@ ul {
   display: flex;
 }
 
+@media (max-width: 586px) {
+  .heading {
+    justify-content: space-between;
+  }
+}
+
 .heading p {
   margin-left: 10px;
   margin-top: -8px;

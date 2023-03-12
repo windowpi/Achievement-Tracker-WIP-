@@ -19,6 +19,7 @@
 </head>
 
 <body>
+<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
   <header>
     <nav class="align-items-center">
       <div class="dropdown">
@@ -42,13 +43,47 @@
   </header>
 
   <main>
-    <div class="container">
+    <div class="container" id="achievement-list">
       <a class="container-a" href="https://darksouls.wiki.fextralife.com/Dark+Souls+Wiki" target="_blank">
         <img id="img" src="./imgs/welcome.gif" alt="welcome to dark souls" />
       </a>
+    <section class="dark-soul card-body">
+      <div class="heading">
+        <h2>All Achievements</h2>
+        <p class="total-achievement"><span class="achievement-complete">0</span> / 1</p>
+      </div>
+      <ul>
+        <li id="achievement_8_0">
+          <div class="card-content">
+            <input type="checkbox" id="item_8_0" class="sum" value="1" />
+            <label class='strikethrough' for="item_8_0">
+              <img src="./imgs/dsr/dark-soul.jpg" />
+              The Dark Soul
+            </label>
+          </div>
+        </li>
+      </ul>
+    </section>
     </div>
   </main>
 </body>
+
+<script>
+  var checkboxValues = JSON.parse(localStorage.getItem('checkboxValues')) || {};
+  var $checkboxes = $("#achievement-list :checkbox");
+
+  $checkboxes.on("change", function() {
+    $checkboxes.each(function(){
+      checkboxValues[this.id] = this.checked;
+    });
+    localStorage.setItem("checkboxValues", JSON.stringify(checkboxValues));
+  });
+
+  $.each(checkboxValues, function(key, value) {
+    $("#" + key).prop('checked', value);
+  });
+
+</script>
 
 <script src="https://kit.fontawesome.com/3f5948218d.js" crossorigin="anonymous"></script>
 </html>

@@ -20,6 +20,7 @@
 </head>
 
 <body>
+<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
   <header>
     <nav class="align-items-center">
       <div class="dropdown">
@@ -43,7 +44,7 @@
   </header>
 
   <main>
-    <section class="achievement-list">
+    <section class="achievement-list" id="achievement-list">
       <h1 id="top">Achievements <span><span class="total-achievement-complete">0</span>/41</span></h1>
 
       <section class="bosses card-body">
@@ -500,38 +501,22 @@
 </body>
 <script src="./js/dsr.js"></script>
 <script src="https://kit.fontawesome.com/3f5948218d.js" crossorigin="anonymous"></script>
+<!-- add checkbox state in localStorage -->
 <script type="text/javascript">
-  // if checkbox is checked add to .achievement-complete span
+  var checkboxValues = JSON.parse(localStorage.getItem('checkboxValues')) || {};
+  var $checkboxes = $("#achievement-list :checkbox");
 
-  // Cache container element and add a listener to it
-  const container = document.querySelector('.achievement-list');
-  container.addEventListener('click', handleClick);
+  $checkboxes.on("change", function() {
+    $checkboxes.each(function(){
+      checkboxValues[this.id] = this.checked;
+    });
+    localStorage.setItem("checkboxValues", JSON.stringify(checkboxValues));
+  });
 
-  function handleClick(e) {
+  $.each(checkboxValues, function(key, value) {
+    $("#" + key).prop('checked', value);
+  });
 
-    // Check that the element that fired the event
-    // is a checkbox
-    if (e.target.matches('[type="checkbox"]')) {
-
-      // Destructure the checked attribute from the
-      // checkbox
-      const {
-        checked
-      } = e.target;
-
-      // Find the closest element with a `card-body` class
-      const card = e.target.closest('.card-body');
-
-      // Use that to find the local "achievement" element
-      const achievement = card.querySelector('.achievement-complete');
-
-      // Get and parse its total
-      let total = Number(achievement.textContent);
-
-      // Update the text content with an new total
-      achievement.textContent = checked ? total += 1 : total -= 1;
-    }
-  }
 </script>
 
 </html>

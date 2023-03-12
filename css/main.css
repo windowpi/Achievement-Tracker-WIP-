@@ -171,6 +171,9 @@ ul {
   border-radius: 15px;
   padding: 6px 8px;
   font-weight: bold;
+  width: 4rem;
+  height: 2rem;
+  text-align: center;
 }
 
 .card-body {
@@ -183,20 +186,24 @@ ul {
 }
 
 /* Mobile Display */
-@media (max-width: 480px) {
+@media (max-width: 586px) {
   #top {
     font-size: 2.5rem !important;
   }
 }
 
 /* Need to complete card content to determine font-size :) */
-/*
+
+@media (min-width: 586px) {
+
+}
+
 @media (min-width: 1200px) {
   .card-body {
     font-size: 1rem;    
   }
 }
-*/
+
 
 
 .card-content {

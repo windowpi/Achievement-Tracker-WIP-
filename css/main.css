@@ -171,11 +171,10 @@ ul {
 
 .heading p {
   margin-left: 10px;
-  margin-top: -8px;
-  margin-bottom: 10px;
+  margin-top: -10px;
   background-color: #3498db;
   border-radius: 15px;
-  padding: 6px 8px;
+  padding: 8px 8px;
   font-weight: bold;
   width: 4rem;
   height: 2rem;
@@ -200,13 +199,11 @@ ul {
 
 /* Need to complete card content to determine font-size :) */
 
-@media (min-width: 586px) {
-
-}
+@media (min-width: 586px) {}
 
 @media (min-width: 1200px) {
   .card-body {
-    font-size: 1rem;    
+    font-size: 1rem;
   }
 }
 
